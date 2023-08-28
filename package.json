@@ -1,0 +1,16 @@
+{
+  "name": "testy-glk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.10.0"
+  },
+  "ng-recaptcha": "^7.0.1"
+
+}
