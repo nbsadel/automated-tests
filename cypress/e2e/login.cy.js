@@ -22,7 +22,7 @@ describe('Authorization', () => {
   })
 
   it('should redirect unauthorized user to log in form', () => {
-    cy.visit('profil')
+    cy.visit('/profil')
     cy.url().should('equal', 'https://www.test.gluk.pl/logowanie')
   })
 
